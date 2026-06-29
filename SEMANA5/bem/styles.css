@@ -1,0 +1,46 @@
+
+
+/*MODIFICADOR DE TEXTO*/
+.card--caracteristicas {
+    border: 3px solid orange;
+}
+
+/*ELEMENTO IMAGEN*/
+
+.card___image {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+/*ELEMNETO TITULO*/
+.card__title {
+    font-size: 24px;
+    color: black;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.card__button--success:hover {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: 0.3s ease;
+}
+
+
+/* MODIFICACDOR DEL BOTON  */
+
+.card__button--success {
+    background-color: steelblue;
+    color: white;
+}
+
+/* HOVER DEL BOTON */
+
+.card__button--success:hover {
+    background-color: goldenrod;
+}

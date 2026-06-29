@@ -1,0 +1,60 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    
+}
+h1{
+    color:blue;
+    font-size: 3em;
+}
+
+[href="https://www.instagram.com/"]{
+    color: brown;
+}
+[href="https://www.facebook.com/?locale=es_LA"]{
+    color: blueviolet;
+}
+p:hover{
+    text-decoration: underline;
+}
+
+input:focus{
+    background-color: aqua;
+}
+
+ol:nth-child(even){
+    background-color: lightgreen;
+} 
+
+ol:nth-child(odd){
+    background-color: lightblue;
+} 
+
+p::first-line{
+    color: blue;
+    text-decoration: underline;
+}
+
+p::first-letter{
+    color: red;
+    font-size: 44px;
+}
+
+.estofado-pollo{
+    padding: 5px;
+    margin: 15px;
+    height: 565px;
+    width: 400px;
+    border: 1px solid orange;
+}
+
+.Ingredientes{
+    margin: 8px;
+    padding: 5px;
+}
+
+.Recetas {
+    display: flex;
+}

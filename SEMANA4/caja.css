@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.general{
+    width: 300px;
+    height: 200px;
+    font-size: 1em;
+    background-color: blue;
+}
+
+.caja_px{
+    width: 300px;
+    height: 200px;
+    background-color: aqua;
+}
+
+.caja_vm{
+    width: 3vw;
+    height: 10vh;
+    background-color: blue;
+}
+.caja_em{
+    width: 300em;
+    height: 200em;
+    background-color: blueviolet;
+}
